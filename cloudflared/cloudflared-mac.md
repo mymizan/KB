@@ -168,20 +168,6 @@ Restart n8n after changing the configuration.
 
 ---
 
-# 8. Configure OAuth
-
-When creating OAuth credentials (Google, Slack, Microsoft, etc.), use the callback URL displayed by n8n.
-
-For Google OAuth, it is typically:
-
-```
-https://n8n.example.com/rest/oauth2-credential/callback
-```
-
-Always copy the callback URL from the n8n credential page to ensure it matches exactly.
-
----
-
 # Managing Multiple Applications
 
 A single tunnel can expose multiple local services.
